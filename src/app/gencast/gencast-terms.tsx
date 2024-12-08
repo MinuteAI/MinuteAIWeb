@@ -7,8 +7,8 @@ const GencastTerms = () => {
   return (
     <>
       <SEO
-        title={"Minute For AI"}
-        description={"Minute For AI - Gencast - Generate your tailormade Podcasts"}
+        title={"Gencast - Terms of Use"}
+        description={"Minute for AI - Gencast - Generate your tailormade Podcasts"}
       />
 
       <div className="flex flex-col min-h-screen">

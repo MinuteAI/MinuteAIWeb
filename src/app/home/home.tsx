@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <SEO
-        title={"Minute For AI"}
+        title={"Minute for AI"}
         description={"Minute For AI - Gencast - Generate your tailormade Podcasts"}
       />
 
