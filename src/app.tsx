@@ -6,7 +6,7 @@ import GencastTerms from './app/gencast/gencast-terms';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.VITE_PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gencast" element={<Home />} />
