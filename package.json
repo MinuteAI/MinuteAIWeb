@@ -1,5 +1,6 @@
 {
-  "name": "gencast",
+  "homepage": "https://minuteforai.com/",
+  "name": "minuteforai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
