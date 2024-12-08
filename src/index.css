@@ -3,21 +3,30 @@
 @tailwind utilities;
 
 /* Base font size */
-html
-{
+html {
   font-size: 18px;
 }
 
 /* Small screens (<1280px) */
-@media (max-width: 1279px)
-{
-  html
-  {
+@media (max-width: 1279px) {
+  html {
     font-size: 16px;
   }
 }
 
-@font-face
-{
+@font-face {
   font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+/* Global paragraph styles */
+@layer base {
+  p {
+    padding-bottom: 1rem; 
+    line-height: 1.75; 
+  }
+
+  li {
+    padding-bottom: 1rem; 
+    line-height: 1.75; 
+  }
 }

@@ -12,7 +12,12 @@ const Home = () => {
       />
 
       <div className="flex flex-col min-h-screen">
-        <Header />
+        <Header title="Gencast" />
+
+        <main className="flex-grow mx-auto p-8 max-w-2xl overflow-hidden">
+          <HomeContent />
+        </main>
+
         <Footer />
       </div>
     </>
@@ -20,3 +25,22 @@ const Home = () => {
 }
 
 export default Home;
+
+const HomeContent: React.FC = () => {
+  return (
+    <section className="space-y-6">
+
+      <div className="pt-6">
+        <h2 className="text-2xl font-semibold">Generate tailormade Podcasts</h2>
+        <p className="text-base pt-3">
+          Gencast lets you generate your own tailormade podcasts. You provide the knowledge base about which the podcast should be generated, then set your filters and let the magic work. It is perfect for students and anyone who wants to consume knowledge in an auditive format.
+        </p>
+      </div>
+
+      <div className="flex flex-col items-start space-y-8 p-8">
+        {/* <img src={gencastIcon} alt="Gencast Icon" className="w-24" /> */}
+      </div>
+
+    </section>
+  );
+};
