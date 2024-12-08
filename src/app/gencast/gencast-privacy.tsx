@@ -139,8 +139,7 @@ const GencastPrivacyContent: React.FC = () => {
         <ul className="list-disc list-inside space-y-2">
           <li>
             <strong>With Service Providers:</strong> We use third-party service providers, such as Google Cloud and OpenAI, to process user-generated content. We also rely on Firebase for
-            authentication and analytics. These third-party services have their own privacy practices and may process your data on our behalf under strict confidentiality and security
-            obligations.
+            authentication and analytics. These third-party services have their own privacy practices by which you consent your data being processed of any uploaded information and may process your data on our behalf under strict confidentiality and security obligations.
           </li>
           <li>
             <strong>Legal Obligations:</strong> We may disclose your information if required to do so by law, court order, or other legal processes, or if we believe in good faith that
@@ -249,7 +248,8 @@ const GencastPrivacyContent: React.FC = () => {
         <p>
           If you have questions, concerns, or complaints about our privacy practices, please contact us at:
         </p>
-        <p><strong>Email:</strong> hello@minuteforai.com</p>
+        <p><strong>Email:</strong>&nbsp;
+          <a href="mailto:hello@minuteforai.com" className="text-purple-700 underline">hello@minuteforai.com</a></p>
         <p>
           We will make every effort to address your concerns promptly and fairly.
         </p>
