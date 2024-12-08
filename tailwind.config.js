@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gencastBackground: '#F3F3F3',
+      },
+    },
   },
   plugins: [],
 };

@@ -1,5 +1,6 @@
 import Header from '../header.tsx';
 import Footer from '../footer.tsx';
+import downloadFromAppStore from '../../assets/download_from_appstore.svg';
 
 import SEO from '../../components/helper/seo.tsx';
 
@@ -21,15 +22,14 @@ const Home = () => {
         <Footer />
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Home;
 
 const HomeContent: React.FC = () => {
   return (
     <section className="space-y-6">
-
       <div className="pt-6">
         <h2 className="text-2xl font-semibold">Generate tailormade Podcasts</h2>
         <p className="text-base pt-3">
@@ -37,10 +37,19 @@ const HomeContent: React.FC = () => {
         </p>
       </div>
 
-      <div className="flex flex-col items-start space-y-8 p-8">
-        {/* <img src={gencastIcon} alt="Gencast Icon" className="w-24" /> */}
+      <div className="flex flex-col items-start space-y-4">
+        <a
+          href="https://itunes.apple.com/app/id6738903662"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={downloadFromAppStore}
+            alt="Download From App Store"
+            className="w-40"
+          />
+        </a>
       </div>
-
     </section>
   );
 };

@@ -7,6 +7,10 @@ html {
   font-size: 18px;
 }
 
+body {
+  @apply bg-gencastBackground;
+}
+
 /* Small screens (<1280px) */
 @media (max-width: 1279px) {
   html {
@@ -30,3 +34,4 @@ html {
     line-height: 1.75; 
   }
 }
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import gencastIcon from '../assets/gencast_icon@2x.png';
+import gencastIcon from '../assets/gencast_icon.png';
 
 interface HeaderProps {
   title?: string;
